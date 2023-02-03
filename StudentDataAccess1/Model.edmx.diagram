@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c72b973ac7c44c8b95b7c95abec41128" Name="Diagram1">
+        <EntityTypeShape EntityType="EnrollmentAppModel.ClassSchedule" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="EnrollmentAppModel.Course" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EnrollmentAppModel.Professor" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EnrollmentAppModel.Student" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EnrollmentAppModel.StudentCourse" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EnrollmentAppModel.sysdiagram" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="EnrollmentAppModel.FK__ClassSche__Cours__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="EnrollmentAppModel.FK__ClassSche__Profe__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="EnrollmentAppModel.FK__StudentCo__Class__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="EnrollmentAppModel.FK__StudentCo__Cours__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="EnrollmentAppModel.FK__StudentCo__Stude__412EB0B6" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
